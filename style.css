@@ -1,0 +1,328 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	background-color:#fff;
+	padding: 0px;
+	margin: 0px;
+}
+h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav{
+	background-color: #551a8b;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	width: 100vw;
+	position: fixed;
+
+}
+
+.nav-img{
+	padding-left: 10px;
+	height: 30px;
+}
+
+.logo{
+	font-family: 'Rampart One', cursive;
+	padding: 20px;
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+}
+.logo a{
+	text-decoration: none;
+	color: #fff;
+}
+ul{
+	display: flex;
+	flex: 2 1 auto;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+ li{
+	 padding: 10px 0px;
+ }
+ .pestañas li a{
+	border-radius: 20px;
+	padding: 20px 20px;
+	color: #fff;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+ }
+.pestañas li a:hover{
+	background-color: #eacae2;
+	color:#000;
+}
+
+ .main{
+	 background-image: url(assets/pet2.jpg);
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 height: 100vh;
+	 display: flex;
+	 justify-content: flex-start;
+	 align-items: center; 
+ }
+ .main-text{
+	font-family: 'Rampart One', cursive;
+	padding: 130px;
+	width: 200px;
+	color: #551a8b;
+ }
+ .section-1{
+	 background-color:#b9a6e0;
+	 padding: 20px;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+ }
+ .section-1 h2{
+	font-family: 'Rampart One', cursive;
+	color: #551a8b;
+ }
+ .div{
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: center;
+	 align-items: center;
+	 height: 400px;
+ }
+ .art-1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 50px;
+	height: 300px;
+ }
+ .art-1 img{
+	 height:100%;
+	 border-top-left-radius: 20px;
+	 border-top-right-radius: 20px;
+ }
+ .art-1 h3{
+	margin: 0px;
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background-color: #551a8b;
+	justify-content: center;
+	text-align: center;
+	font-family: 'Ropa Sans', sans-serif;
+	color: #fff;
+ }
+.section-2{
+	background-image: url(assets/toys.png);
+	background-position-x: 600px ;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+	display: flex;
+	padding-left: 150px;
+	align-items: center; 
+
+}
+
+.art-ul{
+	flex-direction: column;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 30px;
+}
+.art-ul li{
+	list-style: initial;
+}
+.art-ul h2{
+	text-transform: uppercase;
+	font-family: 'Rampart One', cursive;
+	padding: 20px;
+}
+.art-img-tienda img{
+	height: 100%;
+}
+.section-3{
+	font-family: 'Rampart One', cursive;
+	background-color: #b9a6e0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.div-article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.arti-bg{
+	background-image: url(assets/label.jpg);
+	background-position: center;
+	background-size: contain;
+	width: 300px;
+	margin: 20px;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 8px 6px -6px black;
+}
+.arti-bg div{
+	font-family: 'Rampart One', cursive;
+	width: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.arti-bg div img{
+	height: 60px;
+	border-radius: 50%;
+}
+.form{
+	background-color: #551a8b;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+.form h2{
+	font-family: 'Rampart One', cursive;
+	color: #fff;
+}
+.article-div{
+	display: flex;
+	justify-content: space-around;
+}
+.article-1{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.article-1 label{
+	padding: 20px
+}
+.article-1 label input{
+	width: 300px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.article-2{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	font-family: 'Ropa Sans', sans-serif;
+}
+.article-2 label textarea{
+	width: 350px;
+	height: 360px;
+	display: flex;
+	justify-content: center;
+	resize: none;
+}
+.footer{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+@media all and (max-width: 800px){
+
+	.header{
+		flex-direction: column;
+	}
+	.nav{
+		position: static;
+		flex-direction: column;
+		
+	}
+	ul{
+		flex-direction: column;
+		padding-right: 40px;
+	}
+    .main-text{
+		padding: 50px;
+	}
+	.section-1{
+		flex-direction: column;
+
+	}	
+	.div{
+		flex-direction: column;
+	height: 80%;
+	}
+
+	.art-1{
+	padding:40px;
+	margin: 0px;
+	}
+
+	.section-1 div {
+	text-align: center;
+	width: 150px;
+	}
+	.section-2{
+	background-position-x: 40px;
+	background-position-y:100px;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	height: 500px;
+	}
+	.art-ul{
+		padding: 40px;
+		margin: 0px;
+	}
+	.section-3{
+
+	}
+	.div-article{
+		flex-direction: column;
+	}
+	.form{
+		flex-direction: column;
+	}
+	.form h2{
+		padding: 20px;
+	}
+	.article-div{
+		flex-direction: column;
+	}
+	.article-1 label input{
+		width: 260px;
+		height: 40px;
+
+	}
+	.article-2 label textarea{
+		width: 260px;
+		height: 300px;
+	
+	}
+	}
